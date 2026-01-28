@@ -26,7 +26,7 @@ page = st.sidebar.radio("Select Page:", ["🏠 Home", "🔬 Research", "📊 Dat
 
 # The Home Field of The Website:
 if page == "🏠 Home":
-    st.title("TDS | AtroPhysics, NWU")
+    st.title("TDS | Atro-Physics, NWU")
     col1, col2, col3 = st.columns(3)
     with col1: st.metric("NWU", "Potchefstroom")
     with col2: st.metric("Field", "AtroPhysics")
@@ -49,7 +49,7 @@ elif page == "📊 Data":
 
 # The Cnntact Field of The Website:
 elif page == "✉️ Contact":
-    st.info("TDS | Nuclear Physics | NWU Potchefstroom")
+    st.info("TDS | Astro-Physics | NWU Potchefstroom")
     st.markdown("# 📧 Get In Touch")
     
     # Email input 
