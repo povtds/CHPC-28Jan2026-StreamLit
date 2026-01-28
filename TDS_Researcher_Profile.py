@@ -42,7 +42,7 @@ elif page == "🔬 Research":
 
 # The Data Field of The Website:
 elif page == "📊 Data":
-    data = pd.DataFrame({"Reaction": ["¹²C(α,n)", "¹⁴N(p,γ)"], "Q_MeV": [1.19, 7.29]})
+    data = TDS.DataFrame({"Reaction": ["¹²C(α,n)", "¹⁴N(p,γ)"], "Q_MeV": [1.19, 7.29]})
     st.dataframe(data)
     st.bar_chart(data.set_index("Reaction")["Q_MeV"])
     #st.pie_chart(data.set_index("Reaction")["Q_MeV"])
